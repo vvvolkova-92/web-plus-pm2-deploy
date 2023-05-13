@@ -2,4 +2,8 @@
 
 Стартеркит проекта по автоматизации деплоя фронтенда и бэкенда при помощи pm2 (pm2 deploy)
 
-### Фронт [тут](https://vilo4ka.ru), бэк [тут](https://api.vilo4ka.ru)
+IP 158.160.24.201
+
+Frontend https://vilo4ka.ru
+
+Backend https://api.vilo4ka.ru
