@@ -139,6 +139,6 @@ class Api {
   }
   }
   // Замените на адрес вашего бэкенда
-  const api = new Api('https://api.vilo4ka.ru/');
+  const api = new Api('https://api.vilo4ka.ru');
 
   export default api;
