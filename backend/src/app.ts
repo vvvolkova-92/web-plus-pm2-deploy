@@ -13,12 +13,12 @@ const { PORT = 3000 } = process.env;
 const app = express();
 mongoose.connect(DB_ADDRESS);
 
-// app.use(cors({
-//   origin: [
-//     'https://vilo4ka.ru',
-//     'http://vilo4ka.ru',
-//   ],
-// }));
+app.use(cors({
+  origin: [
+    'https://vilo4ka.ru',
+    'http://vilo4ka.ru',
+  ],
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
